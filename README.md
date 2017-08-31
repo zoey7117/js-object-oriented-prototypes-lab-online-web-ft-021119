@@ -5,9 +5,9 @@
 + Ensure that each method is only declared one time yet can be referenced by the newly created objects
 
 ## Instructions
-With our new knowledge of prototypes, we would like to refactor our previously written code to declare each function only one time.
+With our new knowledge of prototypes, we would like to refactor our previously written code to declare each function only one time.  So, *your task is to take our existing code and refactor it using prototypes*.
 
-In `index.js`, build an ES6 `BoardMember` class with the following properties set by the constructor: `name`, `training`, and `homeState`.
+In `index.js`, `BoardMember` constructor function with the following properties set by the constructor: `name`, `training`, and `homeState`.
 
 Add following methods to the prototype of the constructor:
 + `veto` — returns `No, I must disagree`
